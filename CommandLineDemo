@@ -1,1 +1,19 @@
 
+/*7. Accept values VIA Command line for 1-D array of integer type and display it on screen
+*/
+class Array 
+{
+	public static void main(String[] args) 
+	{  int i;
+		int n=args.length;
+		int arr[]=new int [n];
+			for(i=0;i<n;i++)
+			arr[i]=Integer.parseInt(args[i]);
+
+		System.out.println("array elements are=");
+		for(i=0;i<n;i++){
+			System.out.print(arr[i]);
+		
+		}
+	}
+}
